@@ -1,0 +1,63 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo5"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/opacos"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="30dp"
+        android:id="@+id/informacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tit_informacion"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="27dp"
+            android:text="Pista"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/cont_informacion"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="¡Bienvenido a la Casa Museo Mosquera! Esta es una prueba rápida del correcto funcionamiento del Scanner! Busca el código QR en el afiche y presiona Escanear"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+    </LinearLayout>
+    <TextView
+        android:layout_above="@+id/informacion"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/black"
+        style="@style/text_shadow"
+        android:textSize="25dp"
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="titulo  - pista"/>
+
+    <Button
+        android:layout_marginRight="40dp"
+        android:layout_below="@+id/informacion"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btn_scan_m1"
+        style="@style/botnoes_acciones"
+        android:text="Escanear"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+</RelativeLayout>

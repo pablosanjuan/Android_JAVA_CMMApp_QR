@@ -1,0 +1,64 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pergamino"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="90dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/f5_txt1"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:text="Mapas"
+                />
+            <TextView
+                android:id="@+id/f5_txt2"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="Ver el recorrido y los mapas de las diferentes salas, donde se desarrollan las miasiones"
+                />
+
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ins_mapa"/>
+
+        </LinearLayout>
+        <TextView
+            style="@style/text_shadow"
+            android:id="@+id/deslizar"
+            android:textSize="19dp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desliza"/>
+
+    </RelativeLayout>
+</FrameLayout>

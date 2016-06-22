@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CMMApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_splash_activitty">SplashActivitty</string>
+    <string name="title_activity_registro">RegistroActivity</string>
+    <string name="desliza"> Desliza Para Ver Más Inofrmación </string>
+    <string name="title_activity_misiones">Misiones</string>
+    <string name="title_activity_info_piezas">InfoPiezas</string>
+    <string name="title_activity_mapas">Mapas</string>
+    <string name="title_activity_m1">M1</string>
+    <string name="title_activity_pop_info_misiones">PopInfoMisiones</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_fragment4">Fragment4</string>
+    <string name="title_activity_fragment5">Fragment5</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+    <string name="title_activity_editar_perfil">EditarPerfil</string>
+    <string name="title_activity_contacto">Contacto</string>
+    <string name="title_activity_superada">Superada</string>
+    <string name="title_activity_fallida">Fallida</string>
+</resources>

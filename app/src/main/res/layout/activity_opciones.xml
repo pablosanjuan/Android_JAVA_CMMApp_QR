@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo1"
+    tools:context="com.cmmapp.pablosj.cmmapp.Opciones">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_misiones"
+            style="@style/botnoes_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Misiones"/>
+        <Button
+            android:id="@+id/btn_info"
+            style="@style/botnoes_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Info. Piezas"/>
+        <Button
+            android:id="@+id/btn_mapas"
+            style="@style/botnoes_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mapas Museo"/>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        app:rippleColor="@color/colorPrimary"
+        android:src="@drawable/ic_settings_white_24dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_info_white_24dp_grande"
+        android:layout_below="@+id/fab"
+        app:rippleColor="@color/colorPrimary"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        style="@style/text_shadow"
+        android:textSize="38dp"
+        android:textColor="@color/white"
+        android:id="@+id/nomb_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Pablo Sanjuan"/>
+</RelativeLayout>

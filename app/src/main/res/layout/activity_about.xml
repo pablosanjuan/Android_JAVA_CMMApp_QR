@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cmmapp.pablosj.cmmapp.About">
+
+    <LinearLayout
+        android:background="@mipmap/fondo3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></LinearLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bandera"/>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:background="@color/opacos"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:textSize="23dp"
+            android:id="@+id/txt_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CMMApp V 1.0"/>
+        <TextView
+            android:textSize="23dp"
+            android:id="@+id/txt_about2"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universidad del Cauca"/>
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/txt_about3"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vicerrectoría de Cultúra"/>
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/txt_about4"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="y Bienestar"/>
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/txt_about5"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Casa Museo Mosquera"/>
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/txt_about6"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="---"/>
+        <TextView
+            android:textSize="23dp"
+            android:id="@+id/txt_about7"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tesis de Pregrado"/>
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/txt_about8"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pablo C. Sanjuan Muñoz"/>
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/txt_about9"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Andrés F. Borrero David"/>
+    </LinearLayout>
+
+</RelativeLayout>
+</FrameLayout>

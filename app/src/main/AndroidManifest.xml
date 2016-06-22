@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cmmapp.pablosj.cmmapp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+        <activity
+            android:name=".Opciones"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PagerAdapter"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fragment1"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fragment2"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fragment3"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivitty"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegistroActivity"
+            android:label="@string/title_activity_registro"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".Misiones"
+            android:label="@string/title_activity_misiones"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".InfoPiezas"
+            android:label="@string/title_activity_info_piezas"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Mapas"
+            android:label="@string/title_activity_mapas"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".M1"
+            android:label="@string/title_activity_m1"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".PopInfoMisiones"
+            android:label="@string/title_activity_pop_info_misiones"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Scanner"
+            android:label="@string/title_activity_pop_info_misiones"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".Fragment4"
+            android:label="@string/title_activity_fragment4"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".Fragment5"
+            android:label="@string/title_activity_fragment5"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".Configuracion"
+            android:label="@string/title_activity_configuracion"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".EditarPerfil"
+            android:label="@string/title_activity_editar_perfil"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".Contacto"
+            android:label="@string/title_activity_contacto"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".Superada"
+            android:label="@string/title_activity_superada"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".Fallida"
+            android:label="@string/title_activity_fallida"
+            android:screenOrientation="sensorLandscape" />
+    </application>
+
+</manifest>

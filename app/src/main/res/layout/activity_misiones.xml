@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo4"
+    tools:context="com.cmmapp.pablosj.cmmapp.Opciones">
+
+    <ImageButton
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btn_info"
+        style="@style/botnoes_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_info_white_24dp_peque"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <LinearLayout
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_mision1"
+            style="@style/botnoes_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Misión 1"/>
+        <Button
+            android:id="@+id/btn_mision2"
+            style="@style/botnoes_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Misión 2"/>
+        <Button
+            android:id="@+id/btn_mision3"
+            style="@style/botnoes_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Misión 3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_mision4"
+            style="@style/botnoes_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Misión 4"/>
+        <Button
+            android:id="@+id/btn_mision5"
+            style="@style/botnoes_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Misión 5"/>
+        <Button
+            android:id="@+id/btn_mision6"
+            style="@style/botnoes_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Misión 6"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
